@@ -1,0 +1,220 @@
+#main-heading{
+    text-align: center;
+    color:purple;
+    text-transform: capitalize;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background-color:aliceblue;
+    text-align: center;
+}
+#task
+{
+    color:rgb(55, 19, 148);
+}
+.banner{
+    background-image: url(https://www.wingstechsolutions.com/wp-content/uploads/2022/03/full-stack-development.gif);
+    height: 330px;
+    color: aliceblue;
+    margin: 0;
+    padding:40px;
+    text-align: center;
+    font-size: 35px;
+    border: dotted 5px aliceblue;
+}
+h2 {
+margin: 1em 0 0.5em 0;
+text-decoration-line: underline;
+text-decoration-color: purple;
+ color:darkviolet;
+ font-size: 22px;
+ line-height: 40px;
+ text-transform: uppercase;
+ font-family: 'Orienta', sans-serif;
+ letter-spacing: 1px;
+ font-style: italic;
+ text-align: center;
+ font-weight: bold;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    justify-content: space-evenly;
+    padding: 20px 50px;
+    text-decoration: none;
+    /* width: 30vw; */
+}
+
+.menu_item {
+    text-decoration: none;
+    background-color: #f9f9f9;
+  display: block;
+  color:#000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 250ms;
+}
+
+.menu_item:hover {
+    opacity: 0.6;
+}
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+table {
+        width: 50%;
+        border-collapse: collapse;
+        margin-left: auto;  
+        margin-right: auto;  
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+table, td, th {
+        border: 1px solid;
+        text-align: left;
+        border-color: blueviolet;
+        color:rgb(55, 19, 148);
+      }
+th {
+        height: 70px;
+        background-color: purple;
+        color:white;
+      }
+#requirements
+{
+    color:rgb(55, 19, 148);
+}
+#submission
+{
+    text-align: center;
+    color:rgb(55, 19, 148);
+}
+#grading
+{
+    text-align: center;
+    color:rgb(55, 19, 148);
+}
+img {
+       
+        max-width: 100%;
+        height: auto;
+    }
+
+h3 {
+    margin: 1em 0 0.5em 0;
+ color:mediumorchid;
+ font-size: 18px;
+ line-height: 40px;
+ text-transform: uppercase;
+ font-family: 'Roboto', sans-serif;
+ letter-spacing: 1px;
+ text-align: center;
+ font-weight: bold;
+}
+#deadline {
+    color: red;
+}
+
+.main_content {
+    padding: 20px 30px;
+    width: 45vw;
+    float: left;
+    text-align: left;
+}
+
+.aside_content{
+  border: 5px solid crimson;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+aside {
+    float: right;
+    width: 44vw;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.active{
+    font-weight: bold;
+    background-color: #d7d7d7;
+}
+.logo:hover {
+    border: 1px solid purple;
+    padding:5px;
+    background-color:blueviolet;
+}
+.menu_item:visited{
+    font-style: italic;
+    color:rgb(55, 19, 148);
+    text-decoration: underline;
+
+}
+
+.photo {
+    float: none;
+}
+
+iframe {
+    width: 100%;
+    height: 250px;
+}
+footer {
+    float: none;
+}
+
+ul[type='circle'] {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+ul[type='circle']>li {
+    background-color: #e4e0e0;
+    padding: 10px 15px;
+    transition: 250ms;
+}
+
+ul[type='circle']>li>a {
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+ul[type='circle']>li:hover {
+    background-color: aliceblue;
+}
+ul[type='square'] {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+ul[type='square']>li {
+    background-color: #d1d1d1;
+    padding: 10px 15px;
+    transition: 250ms;
+}
+
+ul[type='square']>li>a {
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+ul[type='square']>li:hover {
+    background-color: aliceblue;
+}
+
+#task_img {
+    display: block;
+    margin: 10px auto;
+    width: 400px;
+}
